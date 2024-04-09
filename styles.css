@@ -31,11 +31,19 @@ body {
 
 .gift {
   width: 400px;
+  height: 400px;
+  background-image: url(./images/gift.jpeg);
   border: 6px solid white;
   border-radius: 10px;
+  margin: 0px auto;
+  background-size: cover;
 }
 
 .gift-h2 {
   margin-top: 50px;
+}
+
+.gift:hover {
+  background-image: url(./images/elontesla.jpeg);
 }
 
