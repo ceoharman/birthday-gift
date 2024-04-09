@@ -3,7 +3,7 @@ body {
   text-align: center;
   font-size: x-large;
   color: white;
-  background: #a2d2ff;
+  background: linear-gradient(#a2d2ff, pink);
   text-shadow: 0px 0px 1px black;
 }
 
@@ -47,3 +47,23 @@ body {
   background-image: url(./images/elontesla.jpeg);
 }
 
+#gift-2:hover {
+  background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXF4cXl2ejc0Z3dldTd0YzF6MXFxNXIwOW5lN2lwZGFoa2FtMnZsbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MEEwmgXyu8s6Tdqchp/giphy.gif);
+}
+
+#gift-1 {
+  height: 200px;
+}
+
+#gift-1:hover {
+  background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnJrZGMyZDBkcGtqeTRibWY2cjY0aDR3dnpmNDgzeWJ0bnVwMTEwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8Iv5lqKwKsZ2g/giphy.gif);
+}
+
+#footer {
+  font-style: italic;
+  color: white;
+}
+
+a {
+  color: white;
+}
